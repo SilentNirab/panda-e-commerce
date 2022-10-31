@@ -1,0 +1,138 @@
+/* cus-Style */
+
+.cus-bg{
+    background-color: #FEEAE9;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.cus-btn{
+    background:linear-gradient( #FF589B, #FF136F);
+    color: #fff;
+    font-weight: bold;
+}
+.price{
+    color: #FF136F;
+    padding-top: 10px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 6px;
+    height: 6px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.carousel-indicators .active {
+    width: 25px;
+    border: 1px solid #FF136F;
+    border-radius: 5px;
+    background-color: #FF136F;
+}
+.cus-info{
+    width: 70%;
+}
+.categorie-head{
+    padding: 50px 0;
+}
+.categories-heading{
+    font-size: 25px;
+    font-weight: 400;
+}
+.seeall-btn{
+    font-size: 18px;
+    text-decoration: none;
+    color: #FF9D00;
+}
+.seeall-btn:hover{
+    color: #FFD019;
+}
+.categorie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.categorie img{
+ width: 100px;
+}
+.categorie h3{
+    color: #fff;
+   }
+.categorie-1{
+    background: linear-gradient(to right, #FF9C35, #FFD019);
+    
+}
+.categorie-2{
+    background:linear-gradient(to bottom, #FF589B, #FF136F);
+}
+.categorie-3{
+    background:linear-gradient(to right, #4289FF, #3F07F8);
+}
+.section-2{
+    background: #e2e2e2;
+}
+.product{
+    background: #fff;
+    padding: 45px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cus-card img{
+    width: 100%;
+}
+.cus-card h2{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.cus-card p{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+}
+.cus-card button{
+   margin-top: 10px;
+}
+.cusbt-2{
+    border-radius: 0 5px 5px 0;
+}
+.cusbt-2:hover{
+    color: #e2e2e2;
+}
+.footer{
+    margin: 50px 0;
+}
+.footer-info{
+    background: #FEEAE9;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+.mail-form{
+  text-align: center;
+}
+.mail-form h2{
+    font-size: 24px;
+    font-weight: 400;
+  }
+.mail-form p{
+    font-size: 15px;
+    font-weight: 200;
+    color: #8a8383;
+    padding: 5px 0 10px 0;
+  }
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ff136e42;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0.041); 
+}
+.footer .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #e2e2e2;
+}
